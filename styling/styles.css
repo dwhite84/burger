@@ -1,0 +1,11 @@
+html, body{
+	height: 100%;
+}
+body { 
+	background-image: url(https://img.freepik.com/free-vector/hand-drawn-cheeseburger_23-2147626928.jpg?size=338&ext=jpg) ;
+	background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+	background-color: #000000;  
+}
