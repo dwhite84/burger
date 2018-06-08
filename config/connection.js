@@ -8,6 +8,15 @@ var connection = mysql.createConnection({
   database: "burgers_db"
 });
 
+if(process.env.JAWS_URL){
+  connection = mysql.createConnection({
+    host: 'localhost',
+    user: 'root',
+    password: 'hacktheplanet',
+    database: 'todoagain_db'
+  });
+}
+
 // Make connection.
 connection.connect(function(err) {
   if (err) {
